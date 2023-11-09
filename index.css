@@ -8,7 +8,18 @@ html {
 *:after {
     box-sizing: inherit
 }
-
+.navbar{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: montserrat;
+}
+nav{
+    background: gray;
+    height: 80px;
+    width: 100%;
+}
 /* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
 html {
     -ms-text-size-adjust: 100%;
